@@ -1,27 +1,70 @@
-# electron-react-app
+# Electron Dialog Assignment
 
----An Electron application with React and TypeScript
+A desktop application built with Electron, React, TypeScript, and Tailwind CSS
 
-## Recommended IDE Setup
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+## Features
+- Information Dialog
+- Confirmation Dialog
+- Settings Dialog
+- Reusable Dialog Components
+- Responsive Layout
+- Tailwind CSS Styling
 
-## Project Setup
+## Tech Stack
+- Electron
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
 
-### Install
+## Installation
+Clone the repository from github
 
 ```bash
-$ npm install
-```
-### Development
-```bash
-$ npm run dev
+git clone <your-github-url>
+cd electron-react-app
 ```
 
-### Build
-```bash
+Install dependencies
 
-# For macOS
-$ npm run build:mac
-# For Linux
-$ npm run build:linux
+```bash
+npm install
 ```
+
+Run the application
+
+```bash
+npm run dev
+```
+
+## Build
+For macOS
+```bash
+npm run build:mac
+```
+For Linux
+
+```bash
+npm run build:linux
+```
+
+For Windows
+
+```bash
+npm run build:win
+```
+
+## Project Structure
+
+src/
+ ├── components/
+ │    ├── Dialog/
+ │    ├── dialog/
+ │    └── Button/
+ ├── types/
+ ├── assets/
+ └── App.tsx
+```
+
+## Author
+Namrata 
