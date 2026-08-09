@@ -21,7 +21,7 @@ A desktop application built with Electron, React, TypeScript, and Tailwind CSS
 Clone the repository from github
 
 ```bash
-git clone <your-github-url>
+git clone "https://github.com/30namrata/electron-react-app"
 cd electron-react-app
 ```
 
